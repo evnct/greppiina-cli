@@ -36,6 +36,7 @@ in the previous command we have 2 arguments `to` which is the word we want to se
 which is the file we want to search from. The poem.txt is provided by default for testing purposes.
 
 *Expected output 1:*
+
 ![Example1](https://user-images.githubusercontent.com/77973084/232539391-14275272-0e07-4afc-a9a7-868c15cf31d6.png)
 
 You can also use enviroment variable `IGNORE_CASE=1` to see everything that includes the word `to`
@@ -46,4 +47,5 @@ You can also use enviroment variable `IGNORE_CASE=1` to see everything that incl
  `$Env:IGNORE_CASE=1; cargo run -- to poem.txt`
 
 *Expected output 2:*
+
 ![Example2](https://user-images.githubusercontent.com/77973084/232539480-ae48e965-60bf-449d-84c5-4d6d2c9b52b2.png)

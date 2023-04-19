@@ -24,6 +24,7 @@ impl Config {
             None => return Err("Didn't get a file path"),
         };
 
+        // using IGNORE_CASE 1 will show all lines which inlclude given argument
         let ignore_case = env::var("IGNORE_CASE").is_ok();
 
         Ok(Config {

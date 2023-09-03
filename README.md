@@ -8,8 +8,8 @@
   
   <br/>
   
-  This was an exercise done by following the guide provided by the Rust book to recap the major concepets that I have
-  learned so far.
+  This was an exercise done by following the guide provided by the Rust book <a>https://doc.rust-lang.org/stable/book/ch12-00-an-io-project.html</a> to recap the major concepts that I have
+  learned so far..
   
   Following the policy:
   **This project is not reviewed or supported by the Rust Foundation.**
